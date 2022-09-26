@@ -5,7 +5,7 @@ RUN gem sources --add https://mirrors.tuna.tsinghua.edu.cn/rubygems/ --remove ht
     gem sources -l
 
 RUN apk update && \
-	apk add ruby-dev gcc make curl build-base libc-dev libffi-dev zlib-dev libxml2-dev libgcrypt-dev libxslt-dev python
+	apk add ruby-dev gcc make curl build-base libc-dev libffi-dev zlib-dev libxml2-dev libgcrypt-dev libxslt-dev
 
 COPY Gemfile* /srv/jekyll/
 

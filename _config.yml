@@ -47,7 +47,7 @@ exclude:
   - _drafts
 
 collections:
-  00_pages:
+  golang:
     output: true
     permalink: /:collection/:path/
 
